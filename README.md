@@ -82,9 +82,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 This project is a collaborative effort by our team:
 
 - **Abhiram Kothagundu** - Unity Developmen
-- **[Your Name]** - Machine Learning 
-- **[Team Member]** - Data Analysis
-- **[Team Member]** - Model Training
+- **Vihaan Thatiparthi** - Machine Learning 
+- **Charvi Palem** - Machine Learning
 
 
 ## 🔗 Project Components
