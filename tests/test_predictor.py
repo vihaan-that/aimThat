@@ -37,6 +37,9 @@ class TestNoScopePredictor(unittest.TestCase):
         features = [20.5, 1.5, 75.3, 120.4, 0.0, 1.5, 15.2]
         prediction, confidence = self.predictor.predict(features)
         
+        # Ensure the model is loaded
+        self.assertNotEqual(prediction, -1, "Model not loaded. Ensure the model file exists and is compatible.")
+        
         # Prediction should be either 0 or 1
         self.assertIn(prediction, [0, 1])
         
